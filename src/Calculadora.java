@@ -53,37 +53,48 @@ public class Calculadora {
 
         System.out.print("Ingrese el primer número: ");
         double num1 = calcula.nextDouble();
+        
         System.out.print("Ingrese el segundo número: ");
         double num2 = calcula.nextDouble();
+        
         System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
     }
     
     public static void restar() {
         Scanner calcula = new Scanner(System.in);
+        
         System.out.print("Ingrese el primer número: ");
         double num1 = calcula.nextDouble();
+        
         System.out.print("Ingrese el segundo número: ");
         double num2 = calcula.nextDouble();
+        
         System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
     }
     
     public static void multiplicar() {
+        
         Scanner calcula = new Scanner(System.in);
 
         System.out.print("Ingrese el primer número: ");
         double num1 = calcula.nextDouble();
+        
         System.out.print("Ingrese el segundo número: ");
         double num2 = calcula.nextDouble();
+        
         System.out.println(num1 + " x " + num2 + " = " + (num1 * num2));
     }
     
     public static void dividir() {
+        
         Scanner calcula = new Scanner(System.in);
 
         System.out.print("Ingrese el dividendo: ");
         double dividendo = calcula.nextDouble();
+        
         System.out.print("Ingrese el divisor: ");
         double divisor = calcula.nextDouble();
+        
         if(divisor == 0) {
             System.out.println("No se puede dividir entre cero.");
         } else {
@@ -92,11 +103,15 @@ public class Calculadora {
     }
     
     public static void exponencial() {
+        
         Scanner calcula = new Scanner(System.in);
+        
         System.out.print("Ingrese la base: ");
         double base = calcula.nextDouble();
+        
         System.out.print("Ingrese el exponente: ");
         double exponente = calcula.nextDouble();
+        
         System.out.println(base + " ^ " + exponente + " = " + Math.pow(base, exponente));
     }
 
